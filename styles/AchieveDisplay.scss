@@ -1,0 +1,85 @@
+@import "./globals.scss";
+
+.achieve_display_layout{
+    display: flex;
+    margin: 20px;
+
+    .achieve_display_menu{
+        font-size: 1.3rem;
+        width: 10%;
+
+        div{
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            cursor: pointer;
+            transition: .2s;
+            text-align: center;
+
+            &.clicked{
+                color: $theme_color;
+                font-weight: bold;
+            }
+        }
+
+        div:hover{
+            font-size: 1.5rem;
+        }
+    }
+
+    .achieve_display_content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-gap: 20px;
+        justify-content: center;
+        width: 90%;
+
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin: auto;
+        }
+
+        video{
+            width: 300px;
+            height: 300px;
+            outline: none;
+            border: 1px solid;
+            object-fit: cover;
+        }
+    }
+}
+
+
+@media screen and (max-width:960px) {
+
+    .achieve_display_layout{
+        flex-wrap: wrap;
+
+        .achieve_display_menu{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            border-right: none;
+            height: auto ;
+        }
+
+        .achieve_display_content{
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fit, 100%);
+            width: 80%;
+            margin: auto;
+
+            img{
+                width: 70%;
+                height: 300px;
+            }
+    
+            video{
+                width: 100%;
+                margin: 20px auto;
+                outline: none;
+            }
+        }
+    }
+}
