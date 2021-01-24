@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-
-import images from './images'
 import { useRouter } from 'next/router'
+// import images from './images'
+import images from '../images'
 
 function AchieveDisplay() {
     const router = useRouter();

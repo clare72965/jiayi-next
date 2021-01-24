@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import images from './images'
+import images from '../images'
 
 
 function Home({ topBtn }) {
