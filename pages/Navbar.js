@@ -19,14 +19,14 @@ function Navbar({ fixNavBar }) {
             </div>
 
             <div className={click ? "nav_box_link active" : "nav_box_link inactive"}>
-                <Link href="/Home">
-                    <a>首頁</a>
+                <Link href="/Home" >
+                    <a onClick={closeMobileMenu}>首頁</a>
                 </Link>
-                <Link href="/AchieveDisplay">
-                    <a>成果展示</a>
+                <Link href="/AchieveDisplay"  >
+                    <a onClick={closeMobileMenu}>成果展示</a>
                 </Link>
-                <Link href="/Contact">
-                    <a>聯絡我們</a>
+                <Link href="/Contact" >
+                    <a onClick={closeMobileMenu} >聯絡我們</a>
                 </Link>
             </div>
         </div>
