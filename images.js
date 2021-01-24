@@ -1,3 +1,5 @@
+import logo from './public/logo.png';
+
 import banner from "./public/asset/img/home/banner.png";
 import service01 from "./public/asset/img/home/service01.jpg";
 import service02 from "./public/asset/img/home/service02.jpg";
@@ -49,6 +51,7 @@ import cowshed_poster_video from "./public/asset/img/display/video/cowshed_poste
 
 
 const images = {
+    Logo: { src: logo, alt: "嘉藝造霧工程行" },
     Banner: { src: banner, alt: "banner" },
     Home_ServeItemImg: [
         { src: service01, alt: "畜牧消毒降溫" },

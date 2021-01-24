@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-// import images from './images'
 import images from '../images'
 
 function AchieveDisplay() {
