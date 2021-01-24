@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
-
 import Image from 'next/image'
 
 function Navbar({ fixNavBar }) {
@@ -13,7 +12,7 @@ function Navbar({ fixNavBar }) {
     return (
         <div className={fixNavBar ? "nav_box fix" : "nav_box"}>
             <div>
-                <Image src="/logo.png" alt="嘉藝造霧工程行" width="200" height="50" />
+                <Image src="/asset/logo.png" alt="嘉藝造霧工程行" width="200" height="50" />
             </div>
             <div className="nav_box_mobile" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
