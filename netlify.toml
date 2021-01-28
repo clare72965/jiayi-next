@@ -1,7 +1,7 @@
 [build]
   command   = "npm run build"
   functions = "out_functions"
-  publish = "out_public"
+  publish = "public"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
