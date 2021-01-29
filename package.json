@@ -9,8 +9,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
-    "@netlify/plugin-sitemap": "^0.7.0",
-    "netlify-plugin-submit-sitemap": "^0.2.3",
     "next": "^10.0.5",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.7.0",
