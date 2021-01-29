@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import images from '../images'
-import fetch from 'isomorphic-unfetch';
 
 function Navbar({ fixNavBar, text }) {
 
