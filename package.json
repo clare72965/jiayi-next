@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-on-netlify"
+    "postbuild": "next-on-netlify",
+    "postexport": "node scripts/postexport.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
