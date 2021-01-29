@@ -5,13 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-on-netlify",
-    "postexport": "node scripts/postexport.js"
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@netlify/plugin-sitemap": "^0.7.0",
-    "isomorphic-unfetch": "^3.1.0",
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "next": "^10.0.5",
     "next-compose-plugins": "^2.2.1",
