@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import images from '../images'
+import fetch from 'isomorphic-unfetch';
 
-function Navbar({ fixNavBar }) {
+function Navbar({ fixNavBar, text }) {
 
     const [click, setClick] = useState(false);
 
@@ -13,6 +14,7 @@ function Navbar({ fixNavBar }) {
         <div className={fixNavBar ? "nav_box fix" : "nav_box"}>
             <div>
                 <img src={images.Logo.src} alt={images.Logo.alt} width="70%" />
+                <div>{text}</div>
             </div>
             <div className="nav_box_mobile" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
@@ -31,6 +33,12 @@ function Navbar({ fixNavBar }) {
             </div>
         </div>
     )
+}
+
+Navbar.getInitialProps = async ({ req, query }) => {
+    console.log(req, query);
+    if (req) return { text: 'hello server' }
+    return { text: 'hello client' }
 }
 
 export default Navbar
