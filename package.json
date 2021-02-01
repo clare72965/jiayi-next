@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-on-netlify",
-    "deploy": "npm run build && npm run postexport",
     "postexport": "node ./postexport.js"
   },
   "dependencies": {
