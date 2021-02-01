@@ -35,6 +35,6 @@ const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 
 </urlset>`;
 
-fs.writeFile('out/sitemap.xml', sitemapXml, () => {
+fs.writeFile('out_publish/sitemap.xml', sitemapXml, () => {
   console.log('sitemap.xml saved!');
 });
