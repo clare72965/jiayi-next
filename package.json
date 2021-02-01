@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "postbuild": "next-on-netlify",
     "deploy": "npm run build && npm run export",
     "postexport": "node ./postexport.js"
