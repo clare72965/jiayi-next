@@ -31,6 +31,13 @@ import spray_motor_group02 from "./public/asset/img/display/image/spray_motor_gr
 import spray_motor_group03 from "./public/asset/img/display/image/spray_motor_group03.jpg";
 import spray_motor_group04 from "./public/asset/img/display/image/spray_motor_group04.jpg";
 
+
+import video_20220711_01 from "./public/asset/img/display/video/video_20220711_01.mp4";
+import video_20220711_02 from "./public/asset/img/display/video/video_20220711_02.mp4";
+import video_20220711_03 from "./public/asset/img/display/video/video_20220711_03.mp4";
+import video_20220711_04 from "./public/asset/img/display/video/video_20220711_04.mp4";
+import video_20220711_05 from "./public/asset/img/display/video/video_20220711_05.mp4";
+import video_20220711_06 from "./public/asset/img/display/video/video_20220711_06.mp4";
 import flower_greenhouse_video01 from "./public/asset/img/display/video/flower_greenhouse_video01.mp4";
 import flower_greenhouse_video02 from "./public/asset/img/display/video/flower_greenhouse_video02.mp4";
 import flower_greenhouse_video03 from "./public/asset/img/display/video/flower_greenhouse_video03.mp4";
@@ -42,7 +49,12 @@ import personnel_disinfection_video from "./public/asset/img/display/video/perso
 import cowshed_video from "./public/asset/img/display/video/cowshed_video.mp4";
 
 
-
+import poster_20220711_01 from "./public/asset/img/display/video/poster_20220711_01.jpg"
+import poster_20220711_02 from "./public/asset/img/display/video/poster_20220711_02.jpg"
+import poster_20220711_03 from "./public/asset/img/display/video/poster_20220711_03.jpg"
+import poster_20220711_04 from "./public/asset/img/display/video/poster_20220711_04.jpg"
+import poster_20220711_05 from "./public/asset/img/display/video/poster_20220711_05.jpg"
+import poster_20220711_06 from "./public/asset/img/display/video/poster_20220711_06.jpg"
 import flower_greenhouse_poster_video01 from "./public/asset/img/display/video/flower_greenhouse_poster_video01.jpg"
 import flower_greenhouse_poster_video02 from "./public/asset/img/display/video/flower_greenhouse_poster_video02.jpg"
 import flower_greenhouse_poster_video03 from "./public/asset/img/display/video/flower_greenhouse_poster_video03.jpg"
@@ -89,8 +101,15 @@ const images = {
         { src: spray_motor_group01, alt: "噴霧馬達組" },
         { src: spray_motor_group02, alt: "噴霧馬達組" },
         { src: spray_motor_group03, alt: "噴霧馬達組" },
-        { src: spray_motor_group04, alt: "噴霧馬達組" }],
+        { src: spray_motor_group04, alt: "噴霧馬達組" }
+    ],
     Achieve_DisplayVideo: [
+        { src: video_20220711_01, poster: poster_20220711_01 },
+        { src: video_20220711_02, poster: poster_20220711_02 },
+        { src: video_20220711_03, poster: poster_20220711_03 },
+        { src: video_20220711_04, poster: poster_20220711_04 },
+        { src: video_20220711_05, poster: poster_20220711_05 },
+        { src: video_20220711_06, poster: poster_20220711_06 },
         { src: flower_greenhouse_video01, poster: flower_greenhouse_poster_video01 },
         { src: flower_greenhouse_video02, poster: flower_greenhouse_poster_video02 },
         { src: flower_greenhouse_video03, poster: flower_greenhouse_poster_video03 },
